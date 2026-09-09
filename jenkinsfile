@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                git branch:'main',url:
+                git branch:'main',url:'https://github.com/Ramyaa2210/task1.git'
 
             }
         }
